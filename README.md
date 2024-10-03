@@ -8,25 +8,16 @@ Insights and recommendations are provided on the following key areas:
 - **Key Drivers of Loan and Spending Behaviors:** 
 - **Online Banking Effectiveness:** 
 
-The SQL queries used to inspect and clean the data for this analysis can be found here [link].
-
-Targed SQL queries regarding various business questions can be found here [link].
-
-An interactive Tableau dashboard used to report and explore sales trends can be found here [link].
-
-
 
 # Data Structure & Initial Checks
 
-The companies main database structure as seen below consists of four tables: table1, table2, table3, table4, with a total row count of X records. A description of each table is as follows:
-- **Table 2:**
-- **Table 3:**
-- **Table 4:**
-- **Table 5:**
+The file "bank_loan.csv" contains data on 5,000 customers, including demographic information (such as age and income), details about the customer's relationship with the bank (e.g., mortgage, securities account), and their response to a previous personal loan campaign (indicated by "Personal Loan"). Out of these 5,000 customers, only 480 (or 9.6%) accepted the personal loan offered in the earlier campaign.
 
-[Entity Relationship Diagram here]
+The dataset has no missing (NaN) values. It includes a combination of numerical and categorical attributes, with all categorical data represented numerically.
 
+<img width="429" alt="Screenshot 2024-10-02 at 8 21 23 PM" src="https://github.com/user-attachments/assets/bd96dd34-4c9c-440e-9971-430598bda26e">
 
+**The Python codes to clean the data for this analysis can be found here [Google Colab](https://colab.research.google.com/drive/1s_e7js7pBFI9qygYm1dyehvHNTLbJv6k?usp=sharing)**.
 
 # Executive Summary
 
@@ -81,26 +72,29 @@ The visualizations highlight key trends across customer demographics and their f
 
 # Recommendations:
 
-Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following: 
+Based on the insights and findings above, we recommend that the Marketing and Customer Engagement Team consider the following:
 
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
+
+**Focus on Smaller Families: Smaller families are more likely to adopt personal loans**. **Create tailored loan products with flexible terms to attract this segment**.
+
+**Young, High-Income Customer Strategy**: Younger, high-income customers have a high probability of loan acceptance. **Offer personalized loan products targeted to this group to maximize engagement.**
+
+**Promote Online Banking**: Online banking users adopt more products. Promote digital engagement by offering incentives for online banking to boost product adoption.
+
+**Risk Management for Lower-Income Customers**: Lower-income customers with high credit card spending pose financial risks. Implement financial counseling to manage potential credit issues.
 
 
 # Assumptions and Caveats:
 
 Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
 
-* Assumption 1 (ex: missing country records were for customers based in the US, and were re-coded to be US citizens)
-  
-* Assumption 1 (ex: data for December 2021 was missing - this was imputed using a combination of historical trends and December 2020 data)
-  
-* Assumption 1 (ex: because 3% of the refund date column contained non-sensical dates, these were excluded from the analysis)
+- Education Levels Grouping: Education levels 2 (graduate) and 3 (advanced) were combined for broader comparison.
+
+- Handling Missing Data: Missing income and age values were imputed to ensure comprehensive analysis.
+
+- Online Banking Accuracy: Assumed data on online banking usage was accurate for insights on digital engagement.
+
+
+
+
+
