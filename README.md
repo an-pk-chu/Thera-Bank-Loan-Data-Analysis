@@ -1,7 +1,7 @@
 # Thera-Bank-Loan-Data-Analysis
 
 # Project Background
-Thera Bank is focused on converting liability customers into personal loan clients while retaining their deposit relationships. Building on a successful campaign last year, which achieved a conversion rate of over 9%, the bank is seeking new, data-driven strategies to further improve these conversions. Our analysis reveals that targeting customers based on education level, income, and digital engagement can significantly enhance product adoption. By tailoring marketing campaigns to higher-educated and digitally active customers, and promoting personalized offers for young, high-income clients, the bank can improve conversion rates while effectively managing acquisition costs.
+Thera Bank is focused on converting liability customers into personal loan clients while retaining their deposit relationships. Building on a successful campaign last year, which achieved a conversion rate of over 9%, the bank is seeking new, data-driven strategies to further improve these conversions. This analysis reveals that targeting customers based on education level, income, and digital engagement can significantly enhance product adoption. By tailoring marketing campaigns to higher-educated and digitally active customers, and promoting personalized offers for young, high-income clients, the bank can improve conversion rates while effectively managing acquisition costs.
 Insights and recommendations are provided on the following key areas:
 
 - **Customer Demographic Analysis:**
@@ -75,13 +75,13 @@ The visualizations highlight key trends across customer demographics and their f
 Based on the insights and findings above, we recommend that the Marketing and Customer Engagement Team consider the following:
 
 
-**Focus on Smaller Families: Smaller families are more likely to adopt personal loans**. **Create tailored loan products with flexible terms to attract this segment**.
+- **Focus on Smaller Families**: Smaller families are more likely to adopt personal loans. **Create tailored loan products with flexible terms to attract this segment**.
 
-**Young, High-Income Customer Strategy**: Younger, high-income customers have a high probability of loan acceptance. **Offer personalized loan products targeted to this group to maximize engagement.**
+- **Young, High-Income Customer Strategy**: Younger, high-income customers have a high probability of loan acceptance. **Offer personalized loan products targeted to this group to maximize engagement.**
 
-**Promote Online Banking**: Online banking users adopt more products. Promote digital engagement by offering incentives for online banking to boost product adoption.
+- **Promote Online Banking**: Online banking users adopt more products. Promote digital engagement by offering incentives for online banking to boost product adoption.
 
-**Risk Management for Lower-Income Customers**: Lower-income customers with high credit card spending pose financial risks. Implement financial counseling to manage potential credit issues.
+- **Risk Management for Lower-Income Customers**: Lower-income customers with high credit card spending pose financial risks. Implement financial counseling to manage potential credit issues.
 
 
 # Assumptions and Caveats:
