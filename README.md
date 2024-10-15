@@ -17,7 +17,7 @@ The dataset has no missing (NaN) values. It includes a combination of numerical 
 
 <img width="429" alt="Screenshot 2024-10-02 at 8 21 23 PM" src="https://github.com/user-attachments/assets/bd96dd34-4c9c-440e-9971-430598bda26e">
 
-**The Python codes to clean the data for this analysis can be found here [Google Colab](https://colab.research.google.com/drive/1s_e7js7pBFI9qygYm1dyehvHNTLbJv6k?usp=sharing)**.
+**The Python codes to clean the data for this analysis can be found here [Data Cleaning](https://github.com/an-pk-chu/Thera-Bank-Loan-Data-Analysis/blob/main/Bank_Loan_Dataset_Clean_the_data_set.ipynb)**.
 
 # Executive Summary
 
